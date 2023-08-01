@@ -89,7 +89,7 @@ router.get('/post/:id', (req, res) => {
   
         // Pass the data to the template
         console.log(post);
-        res.render('single-post', { post, loggedIn: req.session.loggedIn});
+        res.render('post', { post, loggedIn: req.session.loggedIn});
 
 
       })
