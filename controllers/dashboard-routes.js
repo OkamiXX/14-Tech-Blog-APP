@@ -75,7 +75,6 @@ router.get('/edit/:id', withAuth, (req, res) => {
 })
 
 
-// To sign up a new user
 router.get('/new', (req, res) => {
     res.render('new-post');
 });
